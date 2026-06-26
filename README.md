@@ -30,7 +30,7 @@ Below is a comparison of different day-to-nocturnal translation approaches evalu
 ### Semantic Cycle-Consistency (Day ⇄ Night ⇄ Day)
 To verify that structural fidelity and critical features are completely preserved across lighting changes, we evaluate a bidirectional cycle translation.
 
-![Semantic Cycle Consistency](docs/images/cycle_consistency.png)  
+![Semantic Cycle Consistency](cycle.png)  
 *Figure 2: Visual comparison of the bidirectional cycle transformations (Synt and KinD filters) on RescueNet imagery.*
 
 ---
@@ -38,7 +38,7 @@ To verify that structural fidelity and critical features are completely preserve
 ### Segmentation Performance Comparison
 Qualitative comparison mapping out how the baseline model fails under lighting shifts, while **II-DAMNet** successfully segments buildings and roads.
 
-![Qualitative Results Comparison](docs/images/segmentation_results.png)  
+![Qualitative Results Comparison](segmentation.png)  
 *Figure 3: Qualitative performance comparison between the baseline PSPNet and the proposed II-DAMNet across original daytime imagery and generated low-light domains.*
 
 ---
@@ -54,3 +54,10 @@ Compared against the baseline PSPNet model on the grouped critical classes (*Int
 | **II-DAMNet (Ours)** | 66.40% | **60.40%** | **62.91%** | **61.71%** |
 
 ---
+## For Citation
+@article{dhahri2026bridging,
+  title={Bridging the Nocturnal Data Gap via Cycle-Consistent Domain Translation for Illumination-Invariant Semantic Segmentation in UAV Disaster Imagery},
+  author={Dhahri, Iyed and Golabi, Mahmoud and Hammoudi, Karim and Idoumghar, Lhassane},
+  journal={AVSS},
+  year={2026}
+}
