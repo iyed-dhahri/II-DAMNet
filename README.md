@@ -22,7 +22,7 @@ This project bridges that gap by implementing two simulated datasets (**Twilight
 ### Day-to-Night Domain Translation
 Below is a comparison of different day-to-nocturnal translation approaches evaluated on RescueNet imagery. Our framework prioritizes **Synt1** (twilight-style) and **KinD2** (infrared-style) due to their perfect structural preservation.
 
-![Day-to-Night Transformations](docs/images/style_transfer_comparison.png)  
+![Day-to-Night Transformations](sample.png)  
 *Figure 1: Comparison of day-to-night transformation techniques (Synt1, InstructPix2Pix, ControlNet, KinD2).*
 
 ---
