@@ -1,0 +1,4 @@
+II-DAMNet.pth
+initmodel/resnet101_v2.pth
+*.csv
+*.slurm
